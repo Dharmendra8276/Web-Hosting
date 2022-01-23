@@ -112,19 +112,27 @@ h3{
 
 
 @media screen and (max-width: 480px) {
-
+    .actions{
+        float: right;
+        margin: 0 8;
+        cursor: pointer;
+    }
     .nav-menu{
         display: inline-block;  
-        margin: 19px 19px;
+        margin: 0px 0px;
     }
-
+    .nav-menu ul{
+        list-style-type: none;
+    }
+    .nav-menu ul li{
+        display: inline;
+    }
     .nav-menu ul li a{
         text-decoration: none;
         color: white;
-        font-size: 15px;
-        margin-left: 10px;
+        font-size: 13px;
+        margin-left: 9px;
     }
-
     
     h3{
         font-size: 28px;
